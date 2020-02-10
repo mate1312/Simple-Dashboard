@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/a43c97d57c.js" crossorigin="anonymous"></script>
+        <script src="../Simple-Dashboard/javascript.js"></script>
+        <title>Dashboard</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                          <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Messages <span class="badge badge-success">12</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="col-md-12 pt-3">
+            <h1>Dashboard:</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Team</th>
+                        <th>All Star</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Steph</td>
+                        <td>Warriors</td>
+                        <td>Yes</td>
+                        <td><button type="submit" class="btn btn-danger btn-sm delete"><strong>X</strong></button></td>
+                    </tr>
+                    <tr>
+                        <td>Lebron</td>
+                        <td>Cavaliers</td>
+                        <td>Yes</td>
+                        <td><button type="submit" class="btn btn-danger btn-sm delete"><strong>X</strong></button></td>
+                    </tr>
+                    <tr>
+                        <td>Dwayne</td>
+                        <td>Heat</td>
+                        <td>Yes</td>
+                        <td><button type="submit" class="btn btn-danger btn-sm delete"><strong>X</strong></button></td>
+                    </tr>
+                    <tr>
+                        <td>Kobe</td>
+                        <td>Dead</td>
+                        <td>Yes <span class="badge badge-warning">Last</span></td>
+                        <td><button type="submit" class="btn btn-danger btn-sm delete"><strong>X</strong></button></td>
+                    </tr>
+                    <tr>
+                        <td>Ismael</td>
+                        <td>Celta do pai</td>
+                        <td>Yes <span class="badge badge-success">First</span>
+                        </td>
+                        <td><button type="submit" class="btn btn-danger btn-sm delete"><strong>X</strong></button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <h1>Todos:</h1>
+            <div class="alert alert-success" role="alert">Feel good about Bootstrap</div>
+            <div class="alert alert-primary" role="alert">Feel informed about Bootstrap</div>
+            <div class="alert alert-warning" role="alert">Feel warned about Bootstrap</div>
+            <div class="alert alert-warning" role="alert">Maybe I should read the docs...</div>
+            <div class="alert alert-danger" role="alert">Danger zone!</div>
+            <div class="alert alert-danger" role="alert">I really should read the docs...</div>
+        </div>
+
+
+    </body>
+
+
+
+</html>
