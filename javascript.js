@@ -1,3 +1,4 @@
-function myFunction() {
-    document.getElementById("myTable").deleteRow(0);
+function deleteRow(r) {
+    var i = r.parentNode.parentNode.rowIndex;
+    document.getElementById("myTable").deleteRow(i);
 }
