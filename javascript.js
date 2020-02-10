@@ -1,3 +1,3 @@
-$('.btn-danger').click(function() {
-    $(this).parents('tr').remove();
-})
+function myFunction() {
+    document.getElementById("myTable").deleteRow(0);
+}

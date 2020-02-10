@@ -11,6 +11,10 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/a43c97d57c.js" crossorigin="anonymous"></script>
         <script src="../Simple-Dashboard/javascript.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+        <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
         <title>Dashboard</title>
     </head>
 
@@ -41,7 +45,7 @@
         </nav>
         <div class="col-md-12 pt-3">
             <h1>Dashboard:</h1>
-            <table class="table table-striped">
+            <table id="myTable" class="table table-striped table-hover">
                 <thead>
                     <tr>
                         <th>Name</th>
@@ -55,32 +59,32 @@
                         <td>Steph</td>
                         <td>Warriors</td>
                         <td>Yes</td>
-                        <td><button type="submit" class="btn btn-danger btn-sm delete"><strong>X</strong></button></td>
+                        <td class="mt-10"><button onclick="myFunction()" type="submit" class="btn btn-danger btn-sm"><strong>X</strong></button></td>
                     </tr>
                     <tr>
                         <td>Lebron</td>
                         <td>Cavaliers</td>
                         <td>Yes</td>
-                        <td><button type="submit" class="btn btn-danger btn-sm delete"><strong>X</strong></button></td>
+                        <td class="mt-10"><button onclick="myFunction()" class="btn btn-danger btn-sm"><strong>X</strong></button></td>
                     </tr>
                     <tr>
                         <td>Dwayne</td>
                         <td>Heat</td>
                         <td>Yes</td>
-                        <td><button type="submit" class="btn btn-danger btn-sm delete"><strong>X</strong></button></td>
+                        <td class="mt-10"><button onclick="myFunction()" class="btn btn-danger btn-sm"><strong>X</strong></button></td>
                     </tr>
                     <tr>
                         <td>Kobe</td>
                         <td>Dead</td>
                         <td>Yes <span class="badge badge-warning">Last</span></td>
-                        <td><button type="submit" class="btn btn-danger btn-sm delete"><strong>X</strong></button></td>
+                        <td class="mt-10"><button onclick="myFunction()" class="btn btn-danger btn-sm"><strong>X</strong></button></td>
                     </tr>
                     <tr>
                         <td>Ismael</td>
                         <td>Celta do pai</td>
                         <td>Yes <span class="badge badge-success">First</span>
                         </td>
-                        <td><button type="submit" class="btn btn-danger btn-sm delete"><strong>X</strong></button></td>
+                        <td class="mt-10"><button onclick="myFunction()" class="btn btn-danger btn-sm"><strong>X</strong></button></td>
                     </tr>
                 </tbody>
             </table>
